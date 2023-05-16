@@ -1,26 +1,24 @@
 html, body {
-    margin: 0%;
-    padding: 0%;
-    height: 100%;
-    background: linear-gradient(45deg, #E6E6FA, #A9A9A9, #808080);
-    text-align: center;
-    max-width: 1480px;
-	margin: 0 auto;
+    	margin: 0%;
+    	padding: 0%;
+    	height: 100%;
+    	background: linear-gradient(45deg, #E6E6FA, #A9A9A9, #808080);
+    	text-align: center;
 }
 .botao{
-    height: 50px;
+    	height: 50px;
 	width: 100px;
-    font: 17px 'Aclonica', sans-serif;
-    background: #5a7d99;
+    	font: 17px 'Aclonica', sans-serif;
+    	background: #5a7d99;
 	color: #fff;
 	border: 1px solid #5c5757;
 	border-radius: 20px;
 	box-shadow: 5px 5px 5px #5c5757;
 	text-shadow: none;
-    margin: 5px 10px;
+    	margin: 5px 10px;
 }
 .botao:hover{
-    background: #155688;
+    	background: #155688;
 	color: #fff;
 	border: 1px solid #eee;
 	border-radius: 20px;
@@ -28,21 +26,18 @@ html, body {
 	text-shadow: none;
 }
 .sites{
-    height: 55px;    
-    position: relative;
-    top: 35%;
-    align-items:last baseline;
+    	position: relative;
+    	top: 35%;
 }
 @media (min-width: 768px){
 .sites{
-    height: 17vh;
-    position: relative;
-    display: flex;
-    justify-content:center;
-    align-items:last baseline;
+        height: 17vh;
+        display: flex;
+        justify-content:center;
+        align-items:last baseline;
     }
 .botao{
-    margin: 0px 10px;
-}
+        margin: 0px 10px;
+    }
 }
 
