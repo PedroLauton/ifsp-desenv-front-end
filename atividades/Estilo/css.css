@@ -31,7 +31,6 @@ html, body {
     justify-content: center;
     position: relative;
     top: 35%;
-    align-items:last baseline;
 }
 @media (min-width: 768px){
 .sites{
@@ -39,7 +38,6 @@ html, body {
     height: 20vh;
     display: flex;
     justify-content:center;
-    align-items:last baseline;
     }
 .botao{
     margin: 0px 10px;
