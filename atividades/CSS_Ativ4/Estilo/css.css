@@ -1,6 +1,5 @@
 html {
   scroll-behavior: smooth;
-  background-color: midnightblue;
 }
 body {
   margin: 0;
@@ -47,7 +46,7 @@ h1 {
 }
 main {
   position: absolute;
-  top: 100px;
+  padding-top: 100px;
   background: radial-gradient(circle, black, midnightblue);
 }
 #lu, #so, #pl {
@@ -133,7 +132,6 @@ main {
   }
   main {
     padding-top: 50px;
-    top: 0;
   }
   h2 {
     font-size: 2rem;
